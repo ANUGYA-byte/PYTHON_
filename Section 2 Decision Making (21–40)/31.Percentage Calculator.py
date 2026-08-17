@@ -1,0 +1,27 @@
+# ---------------------------------------
+# Program 31: Percentage Calculator
+# Description:Calculates the percentage obtained from the marks scored in different subjects
+# Author: Anugya Agrawal
+# ---------------------------------------
+
+SUBJECT1=float(input("ENTER YOUR MARKS IN SUBJECT 1"))
+SUBJECT2=float(input("ENTER YOUR MARKS IN SUBJECT 2"))
+SUBJECT3=float(input("ENTER YOUR MARKS IN SUBJECT 3"))
+SUBJECT4=float(input("ENTER YOUR MARKS IN SUBJECT 4"))
+SUBJECT5=float(input("ENTER YOUR MARKS IN SUBJECT 5"))
+TOTAL_MARKS=float(input("ENTER YOUR TOTAL MAXIMUM MARKS  "))
+PERCENTAGE_CALCULATION=(SUBJECT1+SUBJECT2+SUBJECT3+SUBJECT4+SUBJECT5)/TOTAL_MARKS*100
+print("PERCENTAGE CALCULATION",PERCENTAGE_CALCULATION)
+
+# ---------------------------------------
+#SAMPLE INPUT-
+#ENTER YOUR MARKS IN SUBJECT 1120
+#ENTER YOUR MARKS IN SUBJECT 2130
+#ENTER YOUR MARKS IN SUBJECT 3140
+#ENTER YOUR MARKS IN SUBJECT 4140
+#ENTER YOUR MARKS IN SUBJECT 5150
+#ENTER YOUR TOTAL MAXIMUM MARKS  750
+# ---------------------------------------
+#SAMPLE IOUTPUT-
+#PERCENTAGE CALCULATION 90.66666666666666
+
