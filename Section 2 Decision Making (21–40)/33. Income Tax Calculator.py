@@ -5,38 +5,26 @@
 # ---------------------------------------# ---------------------------------------
 
 
-INCOME=float(input('ENTER YOUR INCOME-'))
-if INCOME<=400000:
-    TAX=0
-    print ('TAX-',"₹",TAX)
-    
-elif 400000<INCOME<=800000:
-    TAX=5/100*INCOME
-    print ('TAX-',"₹",TAX)
+income = float(input("ENTER ANNUAL INCOME: "))
 
-elif 800000<INCOME<=1200000:
-    TAX=10/100*INCOME
-    print ('TAX-',"₹",TAX)
-
-elif 1200000<INCOME<=1600000:
-    TAX=15/100*INCOME
-    print ('TAX-',"₹",TAX)
-
-elif 1600000<INCOME<=2000000:
-    TAX=20/100*INCOME
-    print ('TAX-',"₹",TAX)
-
-elif 2000000<INCOME<=2400000:
-    TAX=25/100*INCOME
-    print ('TAX-',"₹",TAX)
-
-elif 2400000<INCOME<=2800000:
-    TAX=30/100*INCOME
-    print ('TAX-',"₹",TAX)
+if income < 0:
+    print("INVALID INCOME")
 
 else:
-    TAX=35/100*INCOME
-    print ('TAX-',"₹",TAX)
+    tax = 0
+
+    if income > 1000000:
+        tax += (income - 1000000) * 0.30
+        income = 1000000
+
+    if income > 500000:
+        tax += (income - 500000) * 0.20
+        income = 500000
+
+    if income > 250000:
+        tax += (income - 250000) * 0.05
+
+    print("INCOME TAX -", tax)
 # ---------------------------------------
 #SAMPLE -
 #ENTER YOUR INCOME-1287622

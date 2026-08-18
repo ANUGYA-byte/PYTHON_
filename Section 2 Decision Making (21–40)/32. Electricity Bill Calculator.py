@@ -10,22 +10,27 @@
 
 # Author: Anugya Agrawal
 # ---------------------------------------
+# ---------------------------------------
+# Program 32: Electricity Bill Calculator
+# Description: Calculates electricity bill based on units consumed.
+# Author: Anugya Agrawal
+# ---------------------------------------
 
-UNITS=float(input('ENTER UNITS-'))
-if UNITS<=100:
-     print ('AMOUNT-',"₹",(2*UNITS))
-    
-elif UNITS<=200:
-    REMAINING =UNITS-100
-    print ('AMOUNT-',"₹",(2*100)+(REMAINING*3))
-    
-elif UNITS<=300:
-    REMAINING =UNITS-200
-    print ('AMOUNT-',"₹",(2*100)+(100*3)+(REMAINING*5))
-    
+units = float(input("ENTER ELECTRICITY UNITS: "))
+
+if units < 0:
+    print("INVALID UNITS")
+
+elif units <= 100:
+    bill = units * 5
+
+elif units <= 200:
+    bill = (100 * 5) + ((units - 100) * 7)
+
 else:
-    REMAINING =UNITS-300
-    print ('AMOUNT-',"₹",(2*100)+(100*3)+(100*5)+(REMAINING*7))
+    bill = (100 * 5) + (100 * 7) + ((units - 200) * 10)
+
+print("ELECTRICITY BILL -", bill)
 
 # ---------------------------------------
 #SAMPLE -

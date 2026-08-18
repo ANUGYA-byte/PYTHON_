@@ -4,18 +4,14 @@
 # Author: Anugya Agrawal
 # ---------------------------------------
 
+
 number1 = float(input("ENTER NUMBER 1: "))
 number2 = float(input("ENTER NUMBER 2: "))
 number3 = float(input("ENTER NUMBER 3: "))
 
-if number1 < number2 and number1 < number3:
-    print(number1, "SMALLEST NUMBER")
-elif number2 < number1 and number2 < number3:
-    print(number2, "SMALLEST NUMBER")
-elif number3 < number1 and number3 < number2:
-    print(number3, "SMALLEST NUMBER")
-else:
-    print("ALL NUMBERS ARE EQUAL")
+smallest = min(number1, number2, number3)
+
+print("SMALLEST NUMBER -", smallest)
 
 # ---------------------------------------
 # SAMPLE INPUT-
