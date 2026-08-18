@@ -13,6 +13,8 @@ elif 70<=PERCENTAGE<80:
     print("C GRADE")
 elif 60<=PERCENTAGE<70:
     print("D GRADE")
+elif percentage < 0 or percentage > 100:
+    print("Invalid percentage")
 else:
     print("E GRADE")
 

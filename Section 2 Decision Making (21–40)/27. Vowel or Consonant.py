@@ -5,10 +5,10 @@
 # ---------------------------------------
 
 alphabet = input("ENTER THE ALPHABET: ")
-
-if alphabet.lower() in "aeiou":
+if alphabet.isalpha():
+ if alphabet.lower() in "aeiou":
     print(alphabet, "VOWEL")
-else:
+ else:
     print(alphabet, "CONSONANT")
 
 # ---------------------------------------
