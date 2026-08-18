@@ -3,9 +3,10 @@
 # Description: Calculates the area of a circle using the given radius.
 # Author: Anugya Agrawal
 # ---------------------------------------
+import math
 
 radius = float(input("Enter Radius: "))
-area_of_circle = 3.14 * radius ** 2
+area_of_circle = math.pi * radius ** 2
 
 print("Area of circle:", area_of_circle)
 

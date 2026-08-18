@@ -8,11 +8,13 @@ principal = float(input("ENTER PRINCIPAL AMOUNT: "))
 rate = float(input("ENTER RATE OF INTEREST: "))
 time = float(input("ENTER TIME (YEAR): "))
 n_time = int(input("ENTER NUMBER OF TIMES INTEREST IS COMPOUNDED PER YEAR: "))
+if n_time ==0:
+    print("COMPOUND INTEREST -", 0)
+else:
+   amount = principal * (1 + rate / (100 * n_time)) ** (n_time * time)
+   compound_interest = amount - principal
 
-amount = principal * (1 + rate / (100 * n_time)) ** (n_time * time)
-compound_interest = amount - principal
-
-print("COMPOUND INTEREST -", compound_interest)
+   print("COMPOUND INTEREST -", compound_interest)
 
 # ---------------------------------------
 # SAMPLE INPUT-
