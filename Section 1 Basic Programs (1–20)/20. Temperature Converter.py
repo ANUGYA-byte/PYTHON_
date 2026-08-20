@@ -4,16 +4,16 @@
 # Author: Anugya Agrawal
 # ---------------------------------------
 
-celsius = float(input("ENTER TEMPERATURE IN CELSIUS: "))
+celsius = float(input("Enter temperature in Celsius: "))
 
 fahrenheit = (celsius * 9 / 5) + 32
 
-print("FAHRENHEIT -", fahrenheit)
+print("Fahrenheit:", fahrenheit)
 
 # ---------------------------------------
-# SAMPLE INPUT
-# ENTER TEMPERATURE IN CELSIUS: 0
+# SAMPLE INPUT-
+# Enter temperature in Celsius: 0
 #---------------------------------------
-# SAMPLE OUTPUT
-# FAHRENHEIT - 32.0
+# SAMPLE OUTPUT-
+# Fahrenheit: 32.0
 # ---------------------------------------
