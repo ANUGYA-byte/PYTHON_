@@ -6,24 +6,24 @@
 # ---------------------------------------
 
 principal = float(input("Enter principal amount: "))
-rate = float(input("Enter rate of intrest: "))
+rate = float(input("Enter rate of interest: "))
 time = float(input("Enter time (Year): "))
 
 simple_interest = (principal * rate * time) / 100
 
-print("Simple Intrest:", simple_interest)
+print("Simple Interest:", simple_interest)
 
 # ---------------------------------------
 # SAMPLE INPUT-
 #
 # Enter principal amount: 2000
-# Enter rate of intrest: 4
+# Enter rate of interest: 4
 # Enter time (Year):  2
 #
 # ---------------------------------------
 # SAMPLE OUTPUT-
 #
-# Simple Intrest: 160.0
+# Simple Interest: 160.0
 #
 # ---------------------------------------
 ```

@@ -5,7 +5,7 @@
 # ---------------------------------------
 
 principal = float(input("Enter principal amount: "))
-rate = float(input("Enter rate of intrest: "))
+rate = float(input("Enter rate of interest: "))
 time = float(input("Enter time (Year): "))
 n = int(input("Enter number of times compounded per year: "))
 
