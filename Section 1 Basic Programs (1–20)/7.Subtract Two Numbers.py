@@ -9,7 +9,7 @@ number2 = float(input("Enter Number 2: "))
 
 difference = number1 - number2
 
-print("Difference of 2 Numbers:", difference)
+print(f":Difference of 2 Numbers: {difference}")
 
 # ---------------------------------------
 # SAMPLE INPUT

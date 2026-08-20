@@ -9,7 +9,7 @@ number2 = float(input("Enter Number 2: "))
 
 sum_result = number1 + number2
 
-print("Sum of 2 Numbers:", sum_result)
+print(f"Sum of 2 Numbers: {sum_result}")
 
 # ---------------------------------------
 # SAMPLE INPUT

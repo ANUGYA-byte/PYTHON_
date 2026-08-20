@@ -5,25 +5,25 @@
 # Author: Anugya Agrawal
 # ---------------------------------------
 
-principal = float(input("ENTER PRINCIPAL AMOUNT: "))
-rate = float(input("ENTER RATE OF INTEREST: "))
-time = float(input("ENTER TIME (YEAR): "))
+principal = float(input("Enter principal amount: "))
+rate = float(input("Enter rate of intrest: "))
+time = float(input("Enter time (Year): "))
 
 simple_interest = (principal * rate * time) / 100
 
-print("SIMPLE INTEREST -", simple_interest)
+print("Simple Intrest:", simple_interest)
 
 # ---------------------------------------
 # SAMPLE INPUT-
 #
-# ENTER PRINCIPAL AMOUNT: 2000
-# ENTER RATE OF INTEREST: 4
-# ENTER TIME (YEAR): 2
+# Enter principal amount: 2000
+# Enter rate of intrest: 4
+# Enter time (Year):  2
 #
 # ---------------------------------------
 # SAMPLE OUTPUT-
 #
-# SIMPLE INTEREST - 160.0
+# Simple Intrest: 160.0
 #
 # ---------------------------------------
 ```

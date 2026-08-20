@@ -4,13 +4,13 @@
 # Author: Anugya Agrawal
 # ---------------------------------------
 
-principal = float(input("ENTER PRINCIPAL AMOUNT: "))
-rate = float(input("ENTER RATE OF INTEREST (%): "))
-time = float(input("ENTER TIME (YEARS): "))
-n = int(input("ENTER NUMBER OF TIMES COMPOUNDED PER YEAR: "))
+principal = float(input("Enter principal amount: "))
+rate = float(input("Enter rate of intrest: "))
+time = float(input("Enter time (Year): "))
+n = int(input("Enter number of times compounded per year: "))
 
 if principal < 0 or rate < 0 or time < 0:
-    print("INVALID INPUT")
+    print("Invalid Inputs")
 elif n <= 0:
     print("NUMBER OF COMPOUNDING TIMES MUST BE GREATER THAN 0")
 else:

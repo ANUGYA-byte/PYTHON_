@@ -9,7 +9,7 @@ number2 = float(input("Enter Number 2: "))
 
 multiplication=number1 * number2
 
-print("Multiplication of 2 Numbers:",multiplication)
+print(f"Multiplication of 2 Numbers: {multiplication}")
 
 # ---------------------------------------
 #SAMPLE INPUT-
