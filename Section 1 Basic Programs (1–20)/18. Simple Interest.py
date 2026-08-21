@@ -16,9 +16,9 @@ print("Simple Interest:", simple_interest)
 # ---------------------------------------
 # SAMPLE INPUT-
 '''
-# Enter principal amount: 2000
-# Enter rate of interest: 4
-# Enter time (Year):  2
+Enter principal amount: 2000
+Enter rate of interest: 4
+Enter time (Year):  2
 '''
 # ---------------------------------------
 # SAMPLE OUTPUT-
