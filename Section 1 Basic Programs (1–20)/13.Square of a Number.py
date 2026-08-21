@@ -13,7 +13,6 @@ print("Square of number:", number, "-", square)
 # SAMPLE INPUT
 # Enter Number: 8
 # ---------------------------------------
-
 # SAMPLE OUTPUT
 # Square of number: 8.0 - 64.0
 # ---------------------------------------
