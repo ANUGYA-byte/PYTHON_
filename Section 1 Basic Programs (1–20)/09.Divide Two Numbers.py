@@ -19,7 +19,7 @@ else:
 '''
 Enter Number 1: 3
 Enter Number 2: 4
-Division of 2 Numbers = 0.75
+Division of 2 Numbers: 0.75
 '''
 # ---------------------------------------
 #SAMPLE -

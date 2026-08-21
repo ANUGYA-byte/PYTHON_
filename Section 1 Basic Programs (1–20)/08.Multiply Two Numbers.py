@@ -7,7 +7,7 @@
 number1 = float(input("Enter Number 1: "))
 number2 = float(input("Enter Number 2: "))
 
-multiplication=number1 * number2
+multiplication = number1 * number2
 
 print(f"Multiplication of 2 Numbers: {multiplication}")
 
