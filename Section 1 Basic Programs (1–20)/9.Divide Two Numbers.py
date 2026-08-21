@@ -12,7 +12,7 @@ if number2 == 0:
     print("Division by zero is not possible.")
 else:
     division = number1 / number2
-    print(f"Division of 2 Numbe: {division}")
+    print(f"Division of 2 Numbers: {division}")
     
 # ---------------------------------------
 #SAMPLE -

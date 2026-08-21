@@ -23,7 +23,7 @@ else:
 # SAMPLE INPUT-
 '''
 Enter principal amount: 2300
-Enter rate of intrest: 3
+Enter rate of interest: 3
 Enter time (Year): 4
 Enter number of times compounded per year: 2
 '''

@@ -11,7 +11,7 @@ if number2 == 0:
     print("Division by zero is not possible.")
 else:
     remainder = number1 % number2
-    print("fRemainder of 2 Numbers: {remainder}" )
+    print(f"Remainder of 2 Numbers: {remainder}" )
 
 # ---------------------------------------
 # SAMPLE INPUT
