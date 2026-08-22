@@ -7,11 +7,11 @@
 number = float(input("ENTER NUMBER: "))
 
 if number > 0:
-    print(number, "NUMBER IS POSITIVE")
+    print(number, "NUMBER is POSITIVE")
 elif number < 0:
-    print(number, "NUMBER IS NEGATIVE")
+    print(number, "NUMBER is NEGATIVE")
 else:
-    print(number, "NUMBER IS ZERO")
+    print(number, "NUMBER is ZERO")
 
 # ---------------------------------------
 # SAMPLE INPUT
