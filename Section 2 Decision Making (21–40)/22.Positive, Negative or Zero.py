@@ -17,13 +17,13 @@ else:
 # SAMPLE INPUT
 # ENTER NUMBER: 12
 # SAMPLE OUTPUT
-# 12.0 NUMBER IS POSITIVE
+# 12.0 NUMBER is POSITIVE
 #
 # ---------------------------------------
 # SAMPLE INPUT
 # ENTER NUMBER: -11
 # SAMPLE OUTPUT
-# -11.0 NUMBER IS NEGATIVE
+# -11.0 NUMBER is NEGATIVE
 #
 # ---------------------------------------
 # SAMPLE INPUT
