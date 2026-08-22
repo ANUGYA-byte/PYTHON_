@@ -4,30 +4,30 @@
 # Author: Anugya Agrawal
 # ---------------------------------------
 
-number = float(input("ENTER NUMBER: "))
+number = float(input("Enter Number: "))
 
 if number > 0:
-    print(number, "NUMBER is POSITIVE")
+    print(number, "Number is Positive")
 elif number < 0:
-    print(number, "NUMBER is NEGATIVE")
+    print(number, "Number is Negative")
 else:
-    print(number, "NUMBER is ZERO")
+    print(number, "Number is Zero")
 
 # ---------------------------------------
-# SAMPLE INPUT
-# ENTER NUMBER: 12
-# SAMPLE OUTPUT
-# 12.0 NUMBER is POSITIVE
+# SAMPLE INPUT-
+# Enter Number: 12
+# SAMPLE OUTPUT-
+# 12.0 Number is Positive
 #
 # ---------------------------------------
-# SAMPLE INPUT
-# ENTER NUMBER: -11
-# SAMPLE OUTPUT
-# -11.0 NUMBER is NEGATIVE
+# SAMPLE INPUT-
+# Enter Number: 11
+# SAMPLE OUTPUT-
+# -11.0 Number is Negative
 #
 # ---------------------------------------
-# SAMPLE INPUT
-# ENTER NUMBER: 0
-# SAMPLE OUTPUT
-# 0.0 NUMBER IS ZERO
+# SAMPLE INPUT-
+# Enter Number: 0
+# SAMPLE OUTPUT-
+# 0.0 Number is Zero
 # ---------------------------------------
