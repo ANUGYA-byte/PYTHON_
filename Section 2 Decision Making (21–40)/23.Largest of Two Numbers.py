@@ -4,8 +4,8 @@
 # Author: Anugya Agrawal
 # ---------------------------------------
 
-number1 = float(input("ENTER NUMBER 1: "))
-number2 = float(input("ENTER NUMBER 2: "))
+first_number = int(input("Enter first number: "))
+second_number = int(input("Enter second number: "))
 
 if number1 > number2:
     print(number1, "LARGEST NUMBER")
@@ -16,8 +16,8 @@ else:
 
 # ---------------------------------------
 # SAMPLE INPUT
-# ENTER NUMBER 1: 2
-# ENTER NUMBER 2: 2
+# Enter first number: 2
+# Enter second number: 2
 #
 # SAMPLE OUTPUT
 # BOTH NUMBERS ARE EQUAL
