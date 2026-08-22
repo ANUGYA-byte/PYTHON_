@@ -8,7 +8,7 @@ import math
 radius = float(input("Enter Radius: "))
 area_of_circle = math.pi * radius ** 2
 
-print("Area of circle:", area_of_circle)
+print("Area of circle:", round(area_of_circle, 2))
 
 # ---------------------------------------
 # SAMPLE INPUT
@@ -16,5 +16,5 @@ print("Area of circle:", area_of_circle)
 # ---------------------------------------
 
 # SAMPLE OUTPUT
-# Area of circle: 452.16
+# Area of circle: 452.39
 # ---------------------------------------
