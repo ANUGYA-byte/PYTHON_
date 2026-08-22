@@ -4,22 +4,21 @@
 # Author: Anugya Agrawal
 # ---------------------------------------
 
-number = float(input("ENTER NUMBER: "))
+number = float(input("Enter Number: "))
 
 if number % 2 == 0:
-    print(number, "NUMBER IS EVEN")
+    print(number,"Number is Even")
 else:
-    print(number, "NUMBER IS ODD")
+    print(number,"Number is Odd")
 
 # ---------------------------------------
-# SAMPLE 
-# ENTER NUMBER: 33
-# 33.0 NUMBER IS ODD
+# SAMPLE -
+# Enter Number: 33
+# 33.0 Number is Odd 
 
 # ---------------------------------------
 
-
-# SAMPLE 
-# ENTER NUMBER: 22
-# 22.0 NUMBER IS EVEN
+# SAMPLE -
+# Enter Number: 22
+# 22.0 Number is Even
 # ---------------------------------------
