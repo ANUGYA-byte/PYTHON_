@@ -17,8 +17,8 @@ else:
     amount = principal * (1 + rate / (100 * n)) ** (n * time)
     compound_interest = amount - principal
 
-    print("Compound Interest:", compound_interest)
-    print("Total Amount -", amount)
+    print("Compound Interest:",round(compound_interest, 2))
+    print("Total Amount -", round(amount, 2))
 # ---------------------------------------
 # SAMPLE INPUT-
 '''
@@ -29,5 +29,6 @@ Enter number of times compounded per year: 2
 '''
 # ---------------------------------------
 # SAMPLE INPUT-
-'''Compound Interest: 290.9329491692042
-Total Amount - 2590.932949169204'''
+'''Compound Interest: 290.93
+Total Amount - 2590.93
+''
