@@ -4,23 +4,26 @@
 # Author: Anugya Agrawal
 # ---------------------------------------
 
-number1 = float(input("ENTER NUMBER 1: "))
-number2 = float(input("ENTER NUMBER 2: "))
-number3 = float(input("ENTER NUMBER 3: "))
+number1= int(input("Enter first number: "))
+number2= int(input("Enter second number: "))
+number3= int(input("Enter third number: "))
+
 
 if number1 >= number2 and number1 >= number3:
-    print(number1, "LARGEST NUMBER")
+    print(number1, "Largest number")
 elif number2 >= number1 and number2 >= number3:
-    print(number2, "LARGEST NUMBER")
+    print(number2, "Largest number")
+elif number3 >= number1 and number3 >= number2:
+    print(number3, "Largest number")
 else:
-    print(number3, "LARGEST NUMBER")
+    print("All numbers are equal")
 
 # ---------------------------------------
 # SAMPLE INPUT-
-# ENTER NUMBER 1: 5
-# ENTER NUMBER 2: 5
-# ENTER NUMBER 3: 3
+# Enter first number:  5
+# Enter second number: 5
+# Enter third number:  3
 #
 # SAMPLE OUTPUT-
-# 5.0 LARGEST NUMBER
+# 5.0 Largest number
 # ---------------------------------------
