@@ -4,8 +4,8 @@
 # Author: Anugya Agrawal
 # ---------------------------------------
 
-first_number = int(input("Enter first number: "))
-second_number = int(input("Enter second number: "))
+number1= int(input("Enter first number: "))
+number2= int(input("Enter second number: "))
 
 if number1 > number2:
     print(number1, "Largest number")
