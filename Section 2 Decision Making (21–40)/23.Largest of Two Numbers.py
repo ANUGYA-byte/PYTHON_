@@ -8,33 +8,33 @@ first_number = int(input("Enter first number: "))
 second_number = int(input("Enter second number: "))
 
 if number1 > number2:
-    print(number1, "LARGEST NUMBER")
+    print(number1, "Largest number")
 elif number2 > number1:
-    print(number2, "LARGEST NUMBER")
+    print(number2, "Largest number")
 else:
-    print("BOTH NUMBERS ARE EQUAL")
+    print("Both numbers are equal")
 
 # ---------------------------------------
-# SAMPLE INPUT
+# SAMPLE INPUT-
 # Enter first number: 2
 # Enter second number: 2
 #
-# SAMPLE OUTPUT
-# BOTH NUMBERS ARE EQUAL
+# SAMPLE OUTPUT-
+# Both numbers are equal
 #
 # ---------------------------------------
-# SAMPLE INPUT
-# ENTER NUMBER 1: 23
-# ENTER NUMBER 2: 2
+# SAMPLE INPUT-
+# Enter first number: 23
+# Enter second number: 2
 #
-# SAMPLE OUTPUT
-# 23.0 LARGEST NUMBER
+# SAMPLE OUTPUT-
+# 23.0 Largest number
 #
 # ---------------------------------------
-# SAMPLE INPUT
-# ENTER NUMBER 1: 12
-# ENTER NUMBER 2: 14
+# SAMPLE INPUT-
+# Enter first number: 12
+# Enter second number: 14
 #
-# SAMPLE OUTPUT
-# 14.0 LARGEST NUMBER
+# SAMPLE OUTPUT-
+# 14.0 Largest number
 # ---------------------------------------
