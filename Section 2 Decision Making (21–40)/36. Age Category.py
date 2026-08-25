@@ -4,7 +4,7 @@
 # Author: Anugya Agrawal
 # ---------------------------------------# ---------------------------------------
 
-AGE=int(input('ENTER YOUR AGE-'))
+AGE=int(input('Enter your age-'))
 
 if AGE<=10:
     print ("AGE-",AGE, 'GRADE- A')
