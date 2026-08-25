@@ -3,20 +3,20 @@
 # Description:Checks whether a given alphabet is uppercase or lowercase.
 # Author: Anugya Agrawal
 # ---------------------------------------
-ALPHABET=input("ENTER THE  ALPHABET-")
+ALPHABET=input("Enter the alphabet-")
 if  ALPHABET.isupper():
     print(ALPHABET,'UPPERCASE')
 elif ALPHABET.islower():
     print(ALPHABET,'LOWERCASE')
 else:
-    print(ALPHABET,'IT IS NOT ALPHABET')  
+    print(ALPHABET,'It is NOT ALPHABET')  
 
 
 # ---------------------------------------
 #SAMPLE -
-#ENTER THE  ALPHABET-w
+#Enter the alphabet-w
 #w LOWERCASE
 # ---------------------------------------
 #SAMPLE -
-#ENTER THE  ALPHABET-A
+#Enter the alphabet-A
 #A UPPERCASE
