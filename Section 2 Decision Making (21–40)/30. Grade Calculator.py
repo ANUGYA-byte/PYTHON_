@@ -4,7 +4,7 @@
 # Author: Anugya Agrawal
 # ---------------------------------------
 
-PERCENTAGE=float(input("ENTER YOUR PERCENTAGE-  "))
+PERCENTAGE=float(input("Enter your  percentage-  "))
 if 90<=PERCENTAGE<=100:
     print("A GRADE")
 elif 80<=PERCENTAGE<90:
@@ -13,16 +13,16 @@ elif 70<=PERCENTAGE<80:
     print("C GRADE")
 elif 60<=PERCENTAGE<70:
     print("D GRADE")
-elif percentage < 0 or percentage > 100:
+elif PERCENTAGE < 0 or PERCENTAGE > 100:
     print("Invalid percentage")
 else:
     print("E GRADE")
 
 # ---------------------------------------
 #SAMPLE -
-#ENTER YOUR PERCENTAGE-  72
+#Enter your  percentage-  72
 #C GRADE
 # ---------------------------------------
 #SAMPLE -
-#ENTER YOUR PERCENTAGE-  33
+#Enter your  percentage-  33
 #E GRADE

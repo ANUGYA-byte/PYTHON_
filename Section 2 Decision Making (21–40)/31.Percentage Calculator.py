@@ -5,7 +5,7 @@
 # ---------------------------------------
 
 marks1 = float(input("Enter marks in subject 1: "))
-marks2 = float(input("EEnter marks in subject 2: "))
+marks2 = float(input("Enter marks in subject 2: "))
 marks3 = float(input("Enter marks in subject 3: "))
 marks4 = float(input("Enter marks in subject 4: "))
 marks5 = float(input("Enter marks in subject 5: "))

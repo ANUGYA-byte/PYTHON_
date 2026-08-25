@@ -4,11 +4,12 @@
 # Author: Anugya Agrawal
 # ---------------------------------------
 ALPHABET=input("Enter the alphabet-")
-if  ALPHABET.isupper():
+if len(ALPHABET)==1:
+ if  ALPHABET.isupper():
     print(ALPHABET,'UPPERCASE')
-elif ALPHABET.islower():
+ elif ALPHABET.islower():
     print(ALPHABET,'LOWERCASE')
-else:
+ else:
     print(ALPHABET,'It is NOT ALPHABET')  
 
 

@@ -4,7 +4,7 @@
 # Author: Anugya Agrawal
 # ---------------------------------------
 
-number = float(input("Enter Number: "))
+number = int(input("Enter Number: "))
 
 if number % 2 == 0:
     print(number,"Number is Even")
