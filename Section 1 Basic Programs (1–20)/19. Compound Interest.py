@@ -4,21 +4,23 @@
 # Author: Anugya Agrawal
 # ---------------------------------------
 
+# Program 19: Compound Interest
+
 principal = float(input("Enter principal amount: "))
 rate = float(input("Enter rate of interest: "))
-time = float(input("Enter time (Year): "))
+time = float(input("Enter time (years): "))
 n = int(input("Enter number of times compounded per year: "))
 
 if principal < 0 or rate < 0 or time < 0:
-    print("Invalid Inputs")
+    print("Invalid input.")
 elif n <= 0:
-    print("Number of compounding time must be greater than 0")
+    print("Number of compounding times must be greater than 0.")
 else:
     amount = principal * (1 + rate / (100 * n)) ** (n * time)
     compound_interest = amount - principal
 
-    print("Compound Interest:",round(compound_interest, 2))
-    print("Total Amount -", round(amount, 2))
+    print("Compound Interest:", round(compound_interest, 2))
+    print("Total Amount:", round(amount, 2))
 # ---------------------------------------
 # SAMPLE INPUT-
 '''
