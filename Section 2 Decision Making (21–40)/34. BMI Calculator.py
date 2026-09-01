@@ -1,39 +1,33 @@
 # ---------------------------------------
-# Program 34: BMI Calculator 
-# Description:Calculates Body Mass Index (BMI) using a person's weight and height.
+# Program 34: BMI Calculator
+# Description: Calculates BMI using weight and height.
 # Author: Anugya Agrawal
-# ---------------------------------------# ---------------------------------------
+# ---------------------------------------
 
+weight = float(input("ENTER YOUR WEIGHT IN kg: "))
+height = float(input("ENTER YOUR HEIGHT IN m: "))
 
-WEIGHT=float(input('ENTER YOUR WEIGHT IN kg-'))
-HEIGHT=float(input('ENTER YOUR HEIGHT IN m-'))
-BMI=WEIGHT/(HEIGHT**2)
-if HEIGHT <= 0 or WEIGHT <= 0:
+if weight <= 0 or height <= 0:
     print("INVALID INPUT")
 else:
- BMI = WEIGHT / (HEIGHT ** 2)
- if BMI<=18.5:
-    print ("BMI-",BMI, 'STATUS-UNDERWEIGHT')
-    
- elif 18.5<BMI<=24.9:
-    print ("BMI-",BMI, 'STATUS-NORMALWEIGHT')
+    bmi = weight / (height ** 2)
 
- elif 24.9<BMI<=29.9:
-    print ("BMI-",BMI, 'STATUS-OVERWEIGHT',)
+    print("BMI -", round(bmi, 2))
 
- elif BMI>29.9:
-    print ("BMI-",BMI, 'STATUS-OBESITY')
-
-
-# ---------------------------------------
-#SAMPLE -
-#ENTER YOUR WEIGHT IN kg-60
-#ENTER YOUR HEIGHT IN m-1.70
-#BMI- 20.761245674740486 STATUS-NORMALWEIGHT
+    if bmi <= 18.5:
+        print("STATUS - UNDERWEIGHT")
+    elif bmi <= 24.9:
+        print("STATUS - NORMAL RANGE")
+    elif bmi <= 29.9:
+        print("STATUS - OVERWEIGHT")
+    else:
+        print("STATUS - OBESITY")
 
 # ---------------------------------------
-#SAMPLE -
-#ENTER YOUR WEIGHT IN kg-70
-#ENTER YOUR HEIGHT IN m-1.70
-#BMI- 26.643598615916957 STATUS-OVERWEIGHT
+# SAMPLE OUTPUT
+# ---------------------------------------
+# ENTER YOUR WEIGHT IN kg: 60
+# ENTER YOUR HEIGHT IN m: 1.70
+# BMI - 20.76
+# STATUS - NORMAL RANGE
 

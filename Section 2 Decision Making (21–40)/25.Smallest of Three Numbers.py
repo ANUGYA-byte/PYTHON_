@@ -2,15 +2,18 @@
 # Program 25: Smallest of Three Numbers
 # Description: Compares three numbers and finds the smallest value.
 # Author: Anugya Agrawal
-# ---------------------------------------
+# --------------------------------------
 
+number1 = int(input("Enter first number: "))
+number2 = int(input("Enter second number: "))
+number3 = int(input("Enter third number: "))
 
-number1= int(input("Enter first number: "))
-number2= int(input("Enter second number: "))
-number3= int(input("Enter third number: "))
-smallest = min(number1, number2, number3)
-
-print("SMALLEST NUMBER -", smallest)
+if number1 <= number2 and number1 <= number3:
+print(number1, "Smallest number")
+elif number2 <= number1 and number2 <= number3:
+print(number2, "Smallest number")
+else:
+print(number3, "Smallest number")
 
 # ---------------------------------------
 # SAMPLE INPUT-

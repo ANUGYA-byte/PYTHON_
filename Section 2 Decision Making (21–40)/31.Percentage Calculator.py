@@ -1,6 +1,6 @@
 # ---------------------------------------
 # Program 31: Percentage Calculator
-# Description:Calculates the percentage obtained from the marks scored in different subjects
+# Description: Calculates total marks and percentage.
 # Author: Anugya Agrawal
 # ---------------------------------------
 
@@ -21,15 +21,12 @@ else:
     print("TOTAL MARKS -", total)
     print("PERCENTAGE -", percentage, "%")
 
-# ---------------------------------------
-#SAMPLE INPUT-
-#Enter marks in subject 1: 120
-#Enter marks in subject 2: 130
-#Enter marks in subject 3: 140
-#Enter marks in subject 4: 150
-#Enter marks in subject 5: 160
-#ENTER YOUR TOTAL MAXIMUM MARKS  710
-# ---------------------------------------
-#SAMPLE IOUTPUT-
-#PERCENTAGE CALCULATION 90.66666666666666
+# SAMPLE OUTPUT
+# Enter marks in subject 1: 85
+# Enter marks in subject 2: 90
+# Enter marks in subject 3: 78
+# Enter marks in subject 4: 88
+# Enter marks in subject 5: 92
+# TOTAL MARKS - 433.0
+# PERCENTAGE - 86.6 %
 
