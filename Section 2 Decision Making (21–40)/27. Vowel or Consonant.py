@@ -4,13 +4,14 @@
 # Author: Anugya Agrawal
 # ---------------------------------------
 
-alphabet = input("ENTER THE ALPHABET: ")
-if alphabet.isalpha():
- if alphabet.lower() in "aeiou":
-    print(alphabet, "VOWEL")
- else:
-    print(alphabet, "CONSONANT")
+character = input("Enter a character: ")
 
+if len(character) != 1 or not character.isalpha():
+    print("INVALID INPUT")
+elif character.lower() in "aeiou":
+    print(character, "is a VOWEL")
+else:
+    print(character, "is a CONSONANT")
 # ---------------------------------------
 # SAMPLE INPUT-
 # ENTER THE ALPHABET: W
@@ -23,5 +24,5 @@ if alphabet.isalpha():
 # ENTER THE ALPHABET: E
 #
 # SAMPLE OUTPUT-
-# E VOWEL
+# E is a VOWEL
 # ---------------------------------------

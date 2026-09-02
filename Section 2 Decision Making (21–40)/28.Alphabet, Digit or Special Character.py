@@ -3,32 +3,34 @@
 # Description: Determines whether the entered character is an alphabet, digit, or special character.
 # Author: Anugya Agrawal
 # ---------------------------------------
+character = input("Enter a character: ")
 
-CHARACTER = input("ENTER THE CHARACTER: ")
-
-if CHARACTER.isdigit():
- print(CHARACTER, "DIGIT")
-elif CHARACTER.isalpha():
- print(CHARACTER, "ALPHABET")
+if len(character) != 1:
+    print("ENTER ONLY ONE CHARACTER")
+elif character.isalpha():
+    print(character, "is an ALPHABET")
+elif character.isdigit():
+    print(character, "is a DIGIT")
 else:
- print(CHARACTER, "SPECIAL CHARACTER")
+    print(character, "is a SPECIAL CHARACTER")
+
 
 # ---------------------------------------
 # SAMPLE 1
 # ENTER THE CHARACTER: w
-# w ALPHABET
+# w is an ALPHABET
 # ---------------------------------------
 
 # ---------------------------------------
 # SAMPLE 2
 # ENTER THE CHARACTER: 3
-# 3 DIGIT
+# 3 is a DIGIT
 # ---------------------------------------
 
 # ---------------------------------------
 # SAMPLE 3
 # ENTER THE CHARACTER: @
-# @ SPECIAL CHARACTER
+# @ is a SPECIAL CHARACTER
 
 # ---------------------------------------
 
