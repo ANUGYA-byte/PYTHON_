@@ -7,32 +7,32 @@
 AGE=int(input('Enter your age-'))
 
 if AGE<=10:
-    print ("AGE-",AGE, 'GRADE- A')
+    print ("AGE-",AGE, 'Category- A')
     
 elif 10<AGE<=20:
-    print ("AGE-",AGE, 'GRADE- B')
+    print ("AGE-",AGE, 'Category- B')
 
 elif 20<AGE<=30:
-    print ("AGE-",AGE, 'GRADE- C')
+    print ("AGE-",AGE, 'Category- C')
 
 elif 30<AGE<=40:
-    print ("AGE-",AGE, 'GRADE- D')
+    print ("AGE-",AGE, 'Category- D')
 
 elif 40<AGE<=50:
-    print ("AGE-",AGE, 'GRADE- E')
+    print ("AGE-",AGE, 'Category- E')
     
 elif AGE>50:
-    print ("AGE-",AGE, 'GRADE- F')
+    print ("AGE-",AGE, 'Category- F')
 
 
 # ---------------------------------------
 #SAMPLE -
 #ENTER YOUR AGE-22
-#AGE- 22 GRADE- C
+#AGE- 22 Category- C
 
 # ---------------------------------------
 #SAMPLE -
 #ENTER YOUR AGE-44
-#AGE- 44 GRADE- E
+#AGE- 44 Category- E
 
 

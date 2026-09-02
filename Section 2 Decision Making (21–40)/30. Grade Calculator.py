@@ -1,5 +1,5 @@
 # ---------------------------------------
-# Program 30: Grade Calculato
+# Program 30: Grade Calculator
 # Description:Calculates a student's grade based on their marks or percentage
 # Author: Anugya Agrawal
 # ---------------------------------------

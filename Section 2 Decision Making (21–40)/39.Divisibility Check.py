@@ -3,25 +3,21 @@
 #  Checks whether one number is exactly divisible by another number.
 # Author: Anugya Agrawal
 # ---------------------------------------# ---------------------------------------
-number1=int(input('ENTER NUMBER WHOSE DIVISIBLITY NEED TO BE CHECK '))
-number2=int(input('ENTER NUMBER BY WHICH DIVISIBLITY NEED TO CHECK'))
-REMAINDER=number1%number2
-if NUMBER2 == 0:
+number1 = int(input("ENTER NUMBER: "))
+number2 = int(input("ENTER DIVISOR: "))
+
+if number2 == 0:
     print("CANNOT DIVIDE BY ZERO")
-elif number2 % number1 == 0:
-    print("EXACTLY DIVISIBLE")
+elif number1 % number2 == 0:
+    print(number1, "IS EXACTLY DIVISIBLE BY", number2)
 else:
-    print("NOT EXACTLY DIVISIBLE")
-
+    print(number1, "IS NOT EXACTLY DIVISIBLE BY", number2)
 
 # ---------------------------------------
-#SAMPLE -
-#ENTER NUMBER WHOSE DIVISIBLITY NEED TO BE CHECK 123
-#ENTER NUMBER BY WHICH DIVISIBLITY NEED TO CHECK3
-#123.0 IS EXACTLY DIVISIBLE BY  3.0
+# SAMPLE OUTPUT
+# ENTER NUMBER: 123
+# ENTER DIVISOR: 3
+# 123 IS EXACTLY DIVISIBLE BY 3
 # ---------------------------------------
-#SAMPLE -
-#ENTER NUMBER WHOSE DIVISIBLITY NEED TO BE CHECK 124
-#ENTER NUMBER BY WHICH DIVISIBLITY NEED TO CHECK3
-#124.0 IS NOT EXACTLY DIVISIBLE BY  3.0
+
 
