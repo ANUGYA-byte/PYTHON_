@@ -4,25 +4,28 @@
 # Author: Anugya Agrawal
 # ---------------------------------------
 
-PERCENTAGE=float(input("Enter your  percentage-  "))
-if 90<=PERCENTAGE<=100:
-    print("A GRADE")
-elif 80<=PERCENTAGE<90:
-    print("B GRADE")
-elif 70<=PERCENTAGE<80:
-    print("C GRADE")
-elif 60<=PERCENTAGE<70:
-    print("D GRADE")
-elif PERCENTAGE < 0 or PERCENTAGE > 100:
-    print("Invalid percentage")
+percentage = float(input("Enter percentage: "))
+
+if percentage < 0 or percentage > 100:
+    print("INVALID PERCENTAGE")
+elif percentage >= 90:
+    print("GRADE - A")
+elif percentage >= 80:
+    print("GRADE - B")
+elif percentage >= 70:
+    print("GRADE - C")
+elif percentage >= 60:
+    print("GRADE - D")
+elif percentage >= 50:
+    print("GRADE - E")
 else:
-    print("E GRADE")
+    print("GRADE - F")
 
 # ---------------------------------------
 #SAMPLE -
 #Enter your  percentage-  72
-#C GRADE
+#GRADE - C
 # ---------------------------------------
 #SAMPLE -
 #Enter your  percentage-  33
-#E GRADE
+#GRADE - E
