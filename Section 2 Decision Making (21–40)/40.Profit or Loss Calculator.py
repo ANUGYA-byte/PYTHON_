@@ -3,16 +3,19 @@
 # Description:Calculates profit or loss based on cost price and selling price.
 # Author: Anugya Agrawal
 #---------------------------------------
-COST_PRICE=float(input('ENTER COST PRICE-'))
-SELLING_PRICE=float(input('ENTER SELLING PRICE-'))
-if COST_PRICE > SELLING_PRICE:
-    LOSS=COST_PRICE-SELLING_PRICE
-    print("LOSS-Rs",LOSS)
-elif COST_PRICE < SELLING_PRICE:
-    PROFIT=SELLING_PRICE-COST_PRICE
-    print("PROFIT-Rs",PROFIT)
+cost_price = float(input("ENTER COST PRICE: "))
+selling_price = float(input("ENTER SELLING PRICE: "))
+
+if cost_price < 0 or selling_price < 0:
+    print("INVALID PRICE")
+elif selling_price > cost_price:
+    profit = selling_price - cost_price
+    print("PROFIT - ₹", profit)
+elif cost_price > selling_price:
+    loss = cost_price - selling_price
+    print("LOSS - ₹", loss)
 else:
-    print(" NO PROFIT AND LOSS")
+    print("NO PROFIT AND NO LOSS")
 
 # ---------------------------------------
 #SAMPLE -

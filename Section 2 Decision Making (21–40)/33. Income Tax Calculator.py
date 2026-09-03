@@ -4,12 +4,10 @@
 # Author: Anugya Agrawal
 # ---------------------------------------# ---------------------------------------
 
-
 income = float(input("ENTER ANNUAL INCOME: "))
 
 if income < 0:
     print("INVALID INCOME")
-
 else:
     tax = 0
 
@@ -24,7 +22,7 @@ else:
     if income > 250000:
         tax += (income - 250000) * 0.05
 
-    print("INCOME TAX -", tax)
+    print("INCOME TAX - ₹", tax)
 # ---------------------------------------
 #SAMPLE -
 #ENTER YOUR INCOME-1287622

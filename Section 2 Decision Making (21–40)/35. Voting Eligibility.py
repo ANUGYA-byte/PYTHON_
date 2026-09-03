@@ -4,13 +4,17 @@
 # Author: Anugya Agrawal
 # ---------------------------------------# ---------------------------------------
 
+age = int(input("ENTER YOUR AGE: "))
 
-AGE=float(input('ENTER YOUR AGE-'))
-if AGE>=18:
-    print ('AGE-',AGE,'STATUS- VOTING ELIGIBLE')
-
+if age < 0:
+    print("INVALID AGE")
+elif age >= 18:
+    print("AGE -", age)
+    print("STATUS - VOTING ELIGIBLE")
 else:
-    print ('AGE-',AGE,'STATUS- SORRY , YOU ARE NOT VOTING ELIGIBLE')
+    print("AGE -", age)
+    print("STATUS - NOT VOTING ELIGIBLE")
+    
 # ---------------------------------------
 #SAMPLE -
 #ENTER YOUR AGE-33
